@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/HeraldSunScraper");
+mongoose.connect("mongodb://heroku_sft9nvfm:3pm602crbr33la0jo2brjo5cic@ds141242.mlab.com:41242/heroku_sft9nvfm");
 var db = mongoose.connection;
 
 // Show any mongoose errors
